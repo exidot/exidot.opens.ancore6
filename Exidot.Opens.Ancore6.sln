@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{0D0C42A5-CB1E-41B1-AB97-F08B86062C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exidot.Opens.Ancore6.Web", "Web\src\Exidot.Opens.Ancore6.Web.csproj", "{732F1861-77EE-4A32-99CB-41F8D0E3CB15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Account", "Account", "{BB680F49-D6D8-496D-ADE8-C60056209327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exidot.Opens.Ancore6.Account", "Account\src\Exidot.Opens.Ancore6.Account.csproj", "{190DE4A4-89D3-463B-95ED-DDCAA4637FBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{732F1861-77EE-4A32-99CB-41F8D0E3CB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732F1861-77EE-4A32-99CB-41F8D0E3CB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732F1861-77EE-4A32-99CB-41F8D0E3CB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732F1861-77EE-4A32-99CB-41F8D0E3CB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190DE4A4-89D3-463B-95ED-DDCAA4637FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190DE4A4-89D3-463B-95ED-DDCAA4637FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190DE4A4-89D3-463B-95ED-DDCAA4637FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190DE4A4-89D3-463B-95ED-DDCAA4637FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{732F1861-77EE-4A32-99CB-41F8D0E3CB15} = {0D0C42A5-CB1E-41B1-AB97-F08B86062C4F}
+		{190DE4A4-89D3-463B-95ED-DDCAA4637FBD} = {BB680F49-D6D8-496D-ADE8-C60056209327}
+	EndGlobalSection
+EndGlobal
